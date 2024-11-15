@@ -32,3 +32,14 @@ Avoid validating every keystroke by implementing a debounce mechanism to validat
 
 9. Multifield Validation
 Validate fields that depend on each other (e.g., password and confirm password matching).
+
+Use Compose's Modifier to customize the look and feel of text fields (e.g., rounded corners, custom colors, or shadows).
+
+Add content descriptions and accessibility labels to ensure compatibility with screen readers.
+Support for dynamic font scaling for visually impaired users.
+
+Customize keyboard actions (e.g., Next, Done) and implement appropriate actions for each (like moving to the next field or submitting the form).
+
+Manage focus between input fields seamlessly, with auto-focus shifting when users complete a field.
+
+Show a live character or word counter below the input field (useful for fields with limits, like social media posts).
